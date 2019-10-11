@@ -1,1 +1,18 @@
 // Mixins Here
+
+.flex-center() {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-wrap() {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-p-mix(@color, @bg-color, @radius, @padding) {
+    color: @color;
+    background-color: @bg-color;
+    border-radius: @radius;
+    padding: @padding;
+}
